@@ -1,0 +1,102 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)  ), url(code.jpg);
+	background-position: center;
+	background-size: cover;
+    height: 100vh;
+}
+
+.main
+{
+	float: right;
+	list-style: none;
+	margin-top: 35px;
+    
+}
+
+
+.main li
+{
+	display: inline-block;
+	margin:10px 5px;
+}
+.main li a
+{
+   color: white;
+   text-decoration: none;
+   padding:10px 10px;
+   border:1px solid white;
+   margin-left: 20px;
+   border-radius: 10px;
+}
+
+.logo
+{
+	margin: 10px 50px;
+	height: 60px;
+	float: left;
+	
+}
+
+.nav-bar
+{
+	
+	padding: 20px;
+	width:1320px;
+	float: left; 
+}
+
+ .nav-bar li a:hover
+{
+	color:black;
+	background: white;
+}
+
+.hero
+{
+    position: relative;
+ 	text-align: center;
+	text-transform: uppercase;
+	color:white;
+    top:160px;
+
+}
+.btn
+{
+	padding: 10px 10px;
+	letter-spacing: 2px;
+	margin:15px;
+
+}
+.btn1
+{
+	text-decoration: none;
+	color:white;
+	border: 1px solid white;
+	padding: 10px;
+
+}
+.btn2
+{
+	text-decoration: none;
+	color:white;
+	border: 1px solid white;
+	padding: 10px;
+	margin-left: 20px;
+}
+.btn1
+{
+	background: darkorange;
+}
+.btn2:hover
+{
+	background: darkorange;
+}
